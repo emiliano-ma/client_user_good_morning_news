@@ -88,7 +88,7 @@ describe("Premium article view for visitor/registered/subscriber", () => {
       });
     });
 
-    it("can only see first 300 characters", () => {
+    it("can see full content", () => {
       cy.get("[data-cy='article']").within(() => {
         cy.get("[data-cy='title']").should("contain", "Hello World");
         cy.get("[data-cy='teaser']").should(
