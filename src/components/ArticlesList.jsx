@@ -72,19 +72,19 @@ const ArticlesList = () => {
           <Message.Header>{errorMessage}</Message.Header>
         </Message>
       )}
-      <div id="container">
+      <Container className="container">
         <Grid>
           <Grid.Row>
             {articles.map((article) => {
               return (
-                <div data-cy={"article-" + article.id} key={article.id}>
+                // <div data-cy={"article-" + article.id} key={article.id}>
                   <ArticlesCard article={article} />
-                </div>
+                // </div>
               );
             })}
           </Grid.Row>
         </Grid>
-      </div>
+      </Container>
     </>
   );
 };

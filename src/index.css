@@ -1,10 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap");
-#container {
-  padding-top: 3em;
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(2, auto);
+  margin-left: 5%;
+  /* padding-top: 3em;
   width: 68%;
+  margin: auto; */
+}
+
+.article-card {
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+.centered {
+  max-width: 60%;
   margin: auto;
 }
+
+
 #good,
 #morning,
 #News {
@@ -42,7 +59,3 @@
   background-color: white;
 }
 
-.centered {
-  max-width: 60%;
-  margin: auto;
-}
