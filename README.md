@@ -1,6 +1,6 @@
 ### The project
 
-[Deployed with Netlify](https://goodmorningnews.netlify.app)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e86dd054-7959-4c22-9d5a-b7c7dd1f13e0/deploy-status)](https://app.netlify.com/sites/good-morningnews/deploys)
 
 The news room challenge: We have built three clients served by one API.
 We built a news paper platform with the user client, the admin client and a user mobile client with React Native.
