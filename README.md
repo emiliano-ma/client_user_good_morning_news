@@ -1,7 +1,9 @@
 ### The project
 
+[Visit the deployed site](https://good-morningnews.netlify.app)</br>
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e86dd054-7959-4c22-9d5a-b7c7dd1f13e0/deploy-status)](https://app.netlify.com/sites/good-morningnews/deploys)
-[Visit the deployed site](https://good-morningnews.netlify.app) 
+
 
 
 The news room challenge: We have built three clients served by one API.
@@ -16,7 +18,7 @@ The project extended throughout 3 sprints of one week duration each. We worked i
 
 ## Built with
 
-**:** React v.16.13.1
+**:** React v.16.13.1 </br>
 **Testing framework:** Cypress
 
 ## Getting started
